@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>Quản lý sinh viên</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Quản lý sinh viên</h1>
+        <button class="btn btn-add">Thêm sinh viên</button>
+
+        <div class="form-wrapper">
+            <div class="grid-form">
+                <button class="btn btn-close">X</button>
+                <div class="header-form">
+                    <h2>Thêm sinh viên</h2>
+                </div>
+
+                <form class="form" id="form-add__student" action="">
+                    <div class="form-control ">
+                        <label for="">Tên sinh viên</label>
+                        <input type="text" id="name-student" autocomplete="off">
+                        <small>Error Msg</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="">Tuổi</label>
+                        <input type="number" id="age-student" autocomplete="off">
+                        <small>Error Msg</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="">Email</label>
+                        <input type="text" id="email-student" autocomplete="off">
+                        <small>Error Msg</small>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="">Số điện thoại</label>
+                        <input type="number" id="phone-student" autocomplete="off">
+                        <small>Error Msg</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="">Địa chỉ</label>
+                        <input type="text" id="address-student" autocomplete="off">
+                        <small>Error Msg</small>
+                    </div>
+
+                    <div class="form-btn">
+                        <input type="submit" value="Thêm" class="btn">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <h2>Danh sách sinh viên</h2>
+        <div class="list-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Họ và tên</th>
+                        <th>Tuổi</th>
+                        <th>Email</th>
+                        <th>Số điện thoại</th>
+                        <th>Địa chỉ</th>
+                        <th>Hành động</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+            <div class="grid-form edit-form">
+                <div class="header-form">
+                    <h2>Cập nhật thông tin</h2>
+                </div>
+                <form class="form-edit__student" id="form-edit__student" action="">
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/form.js"></script>
+    <script src="./assets/js/editForm.js"></script>
+</body>
+
+</html>

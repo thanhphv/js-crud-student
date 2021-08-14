@@ -1,0 +1,12 @@
+{
+  "student": [
+    {
+      "name": "Phạm Văn Thanh",
+      "age": "25",
+      "email": "thanhphv.nd@gmail.com",
+      "phone": "0312313313",
+      "address": "Nam Định",
+      "id": 1
+    }
+  ]
+}
